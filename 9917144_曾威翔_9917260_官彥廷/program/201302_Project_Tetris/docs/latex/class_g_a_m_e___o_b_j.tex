@@ -1,0 +1,144 @@
+\hypertarget{class_g_a_m_e___o_b_j}{\section{G\-A\-M\-E\-\_\-\-O\-B\-J Class Reference}
+\label{class_g_a_m_e___o_b_j}\index{G\-A\-M\-E\-\_\-\-O\-B\-J@{G\-A\-M\-E\-\_\-\-O\-B\-J}}
+}
+
+
+Core of \hyperlink{class_block}{Block} used for control.  
+
+
+
+
+{\ttfamily \#include $<$game\-\_\-obj.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a6f0bcfa20d9187abfe3960f4df04cec4}{{\bfseries G\-A\-M\-E\-\_\-\-O\-B\-J} (Scene\-Manager $\ast$a\-\_\-\-Scene\-Mgr)}\label{class_g_a_m_e___o_b_j_a6f0bcfa20d9187abfe3960f4df04cec4}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a013242ff24c23b943759280591ece4d6}{virtual void {\bfseries create\-Game\-Obj} (const String \&a\-\_\-\-Name, const String \&a\-\_\-\-Mesh\-Name)}\label{class_g_a_m_e___o_b_j_a013242ff24c23b943759280591ece4d6}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_ad6fcccdeb18391806452db356b479bee}{virtual void {\bfseries set\-Target} (\hyperlink{class_g_a_m_e___o_b_j}{G\-A\-M\-E\-\_\-\-O\-B\-J} $\ast$a\-\_\-\-Target)}\label{class_g_a_m_e___o_b_j_ad6fcccdeb18391806452db356b479bee}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_ac87e275bf68c911e4d64785d2a3836e5}{Scene\-Node $\ast$ {\bfseries get\-Scene\-Node} ()}\label{class_g_a_m_e___o_b_j_ac87e275bf68c911e4d64785d2a3836e5}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a5a124501753fee239e83210cb255cdc2}{const Vector3 \& {\bfseries get\-Position} () const }\label{class_g_a_m_e___o_b_j_a5a124501753fee239e83210cb255cdc2}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_ab0c335efcbb8f80bb897a92441168f5e}{const Vector3 \& {\bfseries get\-Init\-Position} () const }\label{class_g_a_m_e___o_b_j_ab0c335efcbb8f80bb897a92441168f5e}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a2e6d96dcfc917dcfc7fd3bf07ab3e27d}{void {\bfseries translate} (const Vector3 \&v)}\label{class_g_a_m_e___o_b_j_a2e6d96dcfc917dcfc7fd3bf07ab3e27d}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_aa375564b6140c1f95b76a7748dac9a74}{void {\bfseries scale} (Real sx, Real sy, Real sz)}\label{class_g_a_m_e___o_b_j_aa375564b6140c1f95b76a7748dac9a74}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a8b291edd1e484532e6930feae8154257}{virtual void {\bfseries update} (const Ogre\-::\-Frame\-Event \&evt)}\label{class_g_a_m_e___o_b_j_a8b291edd1e484532e6930feae8154257}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a63f209ed6267da656c9a9cb268ad1a4e}{bool {\bfseries is\-Alive} () const }\label{class_g_a_m_e___o_b_j_a63f209ed6267da656c9a9cb268ad1a4e}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a98182473ba8305da60c3f8a0fe8f2bdf}{void {\bfseries make\-Alive} (bool flg=true)}\label{class_g_a_m_e___o_b_j_a98182473ba8305da60c3f8a0fe8f2bdf}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a0414bbb98f31b40e73454fd01e9eeae2}{void {\bfseries set\-Life} (Real c\-Life, Real c\-Max\-Life=-\/1)}\label{class_g_a_m_e___o_b_j_a0414bbb98f31b40e73454fd01e9eeae2}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a6ec6b1f338b4d6c7117b3e8f9f05029e}{void {\bfseries set\-Position} (const Vector3 \&pos)}\label{class_g_a_m_e___o_b_j_a6ec6b1f338b4d6c7117b3e8f9f05029e}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_ac106b5c662073f8e96cc66d96ee20285}{void {\bfseries set\-Init\-Position} (const Vector3 \&pos)}\label{class_g_a_m_e___o_b_j_ac106b5c662073f8e96cc66d96ee20285}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_af1e5d350761d9769632fd2d6462f6d1b}{void {\bfseries set\-Velocity} (const Vector3 \&v)}\label{class_g_a_m_e___o_b_j_af1e5d350761d9769632fd2d6462f6d1b}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_aaf30a973f5361ff2ba4a0d99b3966aed}{void {\bfseries set\-Speed\-Factor} (Real f)}\label{class_g_a_m_e___o_b_j_aaf30a973f5361ff2ba4a0d99b3966aed}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a7db01e4e1a9baff3efdc1d77cff5dd78}{void {\bfseries set\-Visibility\-Flags} (unsigned int m)}\label{class_g_a_m_e___o_b_j_a7db01e4e1a9baff3efdc1d77cff5dd78}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_aec2125e20b74494704dbb32047e25bfb}{void {\bfseries set\-Visible} (bool flg)}\label{class_g_a_m_e___o_b_j_aec2125e20b74494704dbb32047e25bfb}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_acd66a90f92e8882636e79e3f973124b4}{Entity $\ast$ {\bfseries m\-Entity}}\label{class_g_a_m_e___o_b_j_acd66a90f92e8882636e79e3f973124b4}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a6fad18ad7aa1d24d6c1f873f3eaa0e30}{Scene\-Manager $\ast$ {\bfseries m\-Scene\-Mgr}}\label{class_g_a_m_e___o_b_j_a6fad18ad7aa1d24d6c1f873f3eaa0e30}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a691482570994636e9fdf9bd9c7649f0b}{Scene\-Node $\ast$ {\bfseries m\-Scene\-Node}}\label{class_g_a_m_e___o_b_j_a691482570994636e9fdf9bd9c7649f0b}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a3bf7eb6a27aa1490a05f5f00db5eed4b}{Real {\bfseries m\-Radius}}\label{class_g_a_m_e___o_b_j_a3bf7eb6a27aa1490a05f5f00db5eed4b}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a7a2a13b6be28ffb215f49c915fa537e2}{Real {\bfseries m\-Mass}}\label{class_g_a_m_e___o_b_j_a7a2a13b6be28ffb215f49c915fa537e2}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a7fd6c2fc09d900435bc20d590ab1170d}{Vector3 {\bfseries m\-Velocity}}\label{class_g_a_m_e___o_b_j_a7fd6c2fc09d900435bc20d590ab1170d}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_afe56a868207deaad652a56fb63786ebe}{Real {\bfseries m\-Speed\-Factor}}\label{class_g_a_m_e___o_b_j_afe56a868207deaad652a56fb63786ebe}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a7547e49b1d6162044e1c8a5670bdf52e}{Quaternion {\bfseries m\-Quaternion}}\label{class_g_a_m_e___o_b_j_a7547e49b1d6162044e1c8a5670bdf52e}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a7604343f0f80c8028ada3f21007e77f0}{Vector3 {\bfseries m\-Init\-Direction}}\label{class_g_a_m_e___o_b_j_a7604343f0f80c8028ada3f21007e77f0}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a7a965e4b5f428fbf79544c72f1dafed7}{Vector3 {\bfseries m\-Init\-Position}}\label{class_g_a_m_e___o_b_j_a7a965e4b5f428fbf79544c72f1dafed7}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a81573c1b47da8b13f5cb3f019996133a}{unsigned int {\bfseries m\-Action\-Mode}}\label{class_g_a_m_e___o_b_j_a81573c1b47da8b13f5cb3f019996133a}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a9e7399dfeebe550871fc8aa9ff08d15b}{unsigned int {\bfseries m\-Fire\-Action\-Mode}}\label{class_g_a_m_e___o_b_j_a9e7399dfeebe550871fc8aa9ff08d15b}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a06cd2ee5af1a884e096be40ca5e77e41}{Real {\bfseries m\-Life\-Time}}\label{class_g_a_m_e___o_b_j_a06cd2ee5af1a884e096be40ca5e77e41}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a7e0a593d6273fdf6bb50b83e81ca5208}{Real {\bfseries m\-Max\-Life\-Time}}\label{class_g_a_m_e___o_b_j_a7e0a593d6273fdf6bb50b83e81ca5208}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a42022f7440233c4f697e476e5fdce744}{bool {\bfseries m\-Is\-Alive}}\label{class_g_a_m_e___o_b_j_a42022f7440233c4f697e476e5fdce744}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a70f8e8f74573160abc8ffd6373d2e193}{Real {\bfseries m\-Rand\-Speed}}\label{class_g_a_m_e___o_b_j_a70f8e8f74573160abc8ffd6373d2e193}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_ab798cf1f5d4c2411163facccb57b33e6}{Real {\bfseries m\-Time}}\label{class_g_a_m_e___o_b_j_ab798cf1f5d4c2411163facccb57b33e6}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_afe5eb59c2eb8bda9d96fe79f3eb7893c}{Real {\bfseries m\-Amplitude}}\label{class_g_a_m_e___o_b_j_afe5eb59c2eb8bda9d96fe79f3eb7893c}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_a5a0e21e5c5f78788a31506cf7ff813a3}{\hyperlink{class_g_a_m_e___o_b_j}{G\-A\-M\-E\-\_\-\-O\-B\-J} $\ast$ {\bfseries m\-Target}}\label{class_g_a_m_e___o_b_j_a5a0e21e5c5f78788a31506cf7ff813a3}
+
+\item 
+\hypertarget{class_g_a_m_e___o_b_j_afb32c5a54e7c1c481b9cbbd2c0c3f2ad}{Animation\-State $\ast$ {\bfseries m\-Animation\-State}}\label{class_g_a_m_e___o_b_j_afb32c5a54e7c1c481b9cbbd2c0c3f2ad}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Core of \hyperlink{class_block}{Block} used for control. 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+source/game\-\_\-obj.\-h\item 
+source/game\-\_\-obj.\-cpp\end{DoxyCompactItemize}
