@@ -1,0 +1,174 @@
+\hypertarget{class_block_manager}{\section{Block\-Manager Class Reference}
+\label{class_block_manager}\index{Block\-Manager@{Block\-Manager}}
+}
+
+
+\hyperlink{class_block}{Block} manager for A\-L\-L blocks,check the chess board and clear the layer that is full,also apply A\-I L\-O\-G\-I\-C Design here.  
+
+
+
+
+{\ttfamily \#include $<$Block\-Manager.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_block_manager_a23667f9b62f96c6de25668a941fe7eec}{{\bfseries Block\-Manager} (Scene\-Manager $\ast$a\-\_\-\-Scene\-Mgr)}\label{class_block_manager_a23667f9b62f96c6de25668a941fe7eec}
+
+\item 
+\hypertarget{class_block_manager_afa3d60106faa33b29cffe60eabceb45f}{virtual void {\bfseries update} (const Ogre\-::\-Frame\-Event \&evt)}\label{class_block_manager_afa3d60106faa33b29cffe60eabceb45f}
+
+\item 
+\hypertarget{class_block_manager_af03f6328fb1c5ad2e408ae947d23c350}{virtual void {\bfseries create\-New\-Block} ()}\label{class_block_manager_af03f6328fb1c5ad2e408ae947d23c350}
+
+\item 
+\hypertarget{class_block_manager_a6c70dd950f9754a5ce4a76fb564d3beb}{virtual void {\bfseries move\-Block} (int dir)}\label{class_block_manager_a6c70dd950f9754a5ce4a76fb564d3beb}
+
+\item 
+\hypertarget{class_block_manager_a100818f16347fa6de20c7fb2c9f805a0}{virtual void {\bfseries rotate\-Block} (int dir)}\label{class_block_manager_a100818f16347fa6de20c7fb2c9f805a0}
+
+\item 
+\hypertarget{class_block_manager_a620fcc88b0a143316d84b7e77df6199e}{virtual void {\bfseries A\-I\-Plan} ()}\label{class_block_manager_a620fcc88b0a143316d84b7e77df6199e}
+
+\item 
+\hypertarget{class_block_manager_a3a90440297090de6409696c1ce1a129f}{virtual void {\bfseries A\-I\-Plan\-Logic} ()}\label{class_block_manager_a3a90440297090de6409696c1ce1a129f}
+
+\item 
+\hypertarget{class_block_manager_ab88a0f31d62055480f3798d7b2f09b6f}{virtual int {\bfseries A\-I\-Move\-Plan} ()}\label{class_block_manager_ab88a0f31d62055480f3798d7b2f09b6f}
+
+\item 
+\hypertarget{class_block_manager_aa5e7a0830d4105b4fdb7f59e58ca06b5}{virtual int {\bfseries A\-I\-Rotate\-Plan} ()}\label{class_block_manager_aa5e7a0830d4105b4fdb7f59e58ca06b5}
+
+\item 
+\hypertarget{class_block_manager_ad28546fe41da51c1e4ddfd14c8eeead8}{virtual bool {\bfseries is\-End} ()}\label{class_block_manager_ad28546fe41da51c1e4ddfd14c8eeead8}
+
+\item 
+\hypertarget{class_block_manager_ab9ed2c6d6c044417515a04beb836f7f7}{virtual int {\bfseries get\-Score} ()}\label{class_block_manager_ab9ed2c6d6c044417515a04beb836f7f7}
+
+\item 
+\hypertarget{class_block_manager_a0f52d717e79da943ff045d715cbde5fe}{virtual void {\bfseries set\-Particle\-Enabled} (bool b)}\label{class_block_manager_a0f52d717e79da943ff045d715cbde5fe}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_block_manager_a768886c4d8c4e657e2212d49e204b19a}{static const int {\bfseries M\-O\-V\-E\-\_\-\-N\-O\-N\-E} = 0x0000}\label{class_block_manager_a768886c4d8c4e657e2212d49e204b19a}
+
+\item 
+\hypertarget{class_block_manager_a969530de2202f4b42f69e37060bb9a6b}{static const int {\bfseries M\-O\-V\-E\-\_\-\-U\-P} = 0x0001}\label{class_block_manager_a969530de2202f4b42f69e37060bb9a6b}
+
+\item 
+\hypertarget{class_block_manager_a59d5bae659415b234359ee927dfd86fe}{static const int {\bfseries M\-O\-V\-E\-\_\-\-D\-O\-W\-N} = 0x0002}\label{class_block_manager_a59d5bae659415b234359ee927dfd86fe}
+
+\item 
+\hypertarget{class_block_manager_afd6b587b8a0b45b915adb975c87a432e}{static const int {\bfseries M\-O\-V\-E\-\_\-\-L\-E\-F\-T} = 0x0004}\label{class_block_manager_afd6b587b8a0b45b915adb975c87a432e}
+
+\item 
+\hypertarget{class_block_manager_a86a4499f0986b5c17d6af170d4269b0c}{static const int {\bfseries M\-O\-V\-E\-\_\-\-R\-I\-G\-H\-T} = 0x0008}\label{class_block_manager_a86a4499f0986b5c17d6af170d4269b0c}
+
+\item 
+\hypertarget{class_block_manager_ac72581c347a0b65de178b4ec85105cfc}{static const int {\bfseries M\-O\-V\-E\-\_\-\-S\-P\-E\-E\-D\-U\-P} = 0x0010}\label{class_block_manager_ac72581c347a0b65de178b4ec85105cfc}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_block_manager_a2b2c737776e012b5b6c2830e1d3c4da7}{void {\bfseries resolve\-Move\-Collision} (Vector3 \&pre\-Position)}\label{class_block_manager_a2b2c737776e012b5b6c2830e1d3c4da7}
+
+\item 
+\hypertarget{class_block_manager_a599c67ecfbac762fef8936e8ba47f89c}{void {\bfseries resolve\-Rotate\-Collision} (int direction)}\label{class_block_manager_a599c67ecfbac762fef8936e8ba47f89c}
+
+\item 
+\hypertarget{class_block_manager_a28c627de985af22a9efc893431954385}{bool {\bfseries resolve\-Block\-Collision} ()}\label{class_block_manager_a28c627de985af22a9efc893431954385}
+
+\item 
+\hypertarget{class_block_manager_af419044ea5a2146626b8af9beb14bba1}{bool {\bfseries resolve\-Bound\-Collision} ()}\label{class_block_manager_af419044ea5a2146626b8af9beb14bba1}
+
+\item 
+\hypertarget{class_block_manager_ae2c5327d3e1c9a6d9aaf58fb082fb9da}{void {\bfseries project\-Current\-Block} ()}\label{class_block_manager_ae2c5327d3e1c9a6d9aaf58fb082fb9da}
+
+\item 
+\hypertarget{class_block_manager_a53c2746558ef05c9eb2bfc26d5836170}{void {\bfseries record\-Location} ()}\label{class_block_manager_a53c2746558ef05c9eb2bfc26d5836170}
+
+\item 
+\hypertarget{class_block_manager_a7f8ede085348bd637eeabfb208487d0f}{void {\bfseries clear\-Block} (int layer)}\label{class_block_manager_a7f8ede085348bd637eeabfb208487d0f}
+
+\item 
+\hypertarget{class_block_manager_a6e4ef5a21263539dfd1eacf253fbaca2}{void {\bfseries setup\-Sound} (void)}\label{class_block_manager_a6e4ef5a21263539dfd1eacf253fbaca2}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_block_manager_a063fa719baa0dbf70ac976184be6c4a4}{int {\bfseries m\-Cur\-Blocks\-Num}}\label{class_block_manager_a063fa719baa0dbf70ac976184be6c4a4}
+
+\item 
+\hypertarget{class_block_manager_aeede5bfde3880f053bd137a03959527d}{bool {\bfseries m\-End}}\label{class_block_manager_aeede5bfde3880f053bd137a03959527d}
+
+\item 
+\hypertarget{class_block_manager_af9324df428403b998ca0f7cc261957ea}{int {\bfseries score\-\_\-plus}}\label{class_block_manager_af9324df428403b998ca0f7cc261957ea}
+
+\item 
+\hypertarget{class_block_manager_adf8b2993edb68348c6a332b32c0d0091}{bool {\bfseries m\-Block\-Used} \mbox{[}512\mbox{]}}\label{class_block_manager_adf8b2993edb68348c6a332b32c0d0091}
+
+\item 
+\hypertarget{class_block_manager_a189ed2c62d6b8a073362d50bc3eea878}{\hyperlink{class_block}{Block} $\ast$ {\bfseries m\-Block\-Arr} \mbox{[}512\mbox{]}}\label{class_block_manager_a189ed2c62d6b8a073362d50bc3eea878}
+
+\item 
+\hypertarget{class_block_manager_a74ea47f30b1e7e9a4ee79178ffd55d5c}{\hyperlink{class_block}{Block} $\ast$ {\bfseries m\-Cur\-Block}}\label{class_block_manager_a74ea47f30b1e7e9a4ee79178ffd55d5c}
+
+\item 
+\hypertarget{class_block_manager_a287f3fa8101352c798b227c476a2132d}{bool $\ast$$\ast$ {\bfseries m\-Have\-Block} \mbox{[}20\mbox{]}}\label{class_block_manager_a287f3fa8101352c798b227c476a2132d}
+
+\item 
+\hypertarget{class_block_manager_a190720e7f674d746ed2b0ae2edeb3c8a}{int {\bfseries m\-Tile\-X}}\label{class_block_manager_a190720e7f674d746ed2b0ae2edeb3c8a}
+
+\item 
+\hypertarget{class_block_manager_a4ef275284527b132d50a80a796a0efab}{int {\bfseries m\-Tile\-Y}}\label{class_block_manager_a4ef275284527b132d50a80a796a0efab}
+
+\item 
+\hypertarget{class_block_manager_a0fb42aefef329c65fbef320a964e7843}{bool {\bfseries floor\-Complete\-\_\-now}}\label{class_block_manager_a0fb42aefef329c65fbef320a964e7843}
+
+\item 
+\hypertarget{class_block_manager_a0a1950331ae423bf8cedd42364ce46de}{unsigned int {\bfseries Ex\-\_\-audio\-Id}}\label{class_block_manager_a0a1950331ae423bf8cedd42364ce46de}
+
+\item 
+\hypertarget{class_block_manager_ad93465f7f3ed619d45a36daef7b832cc}{unsigned int {\bfseries Fl\-\_\-audio\-Id}}\label{class_block_manager_ad93465f7f3ed619d45a36daef7b832cc}
+
+\item 
+\hypertarget{class_block_manager_a4bf64dd505e587f142ff1053865e1204}{bool {\bfseries initial}}\label{class_block_manager_a4bf64dd505e587f142ff1053865e1204}
+
+\item 
+\hypertarget{class_block_manager_a4a3f1df135388b827046b65215881e8e}{bool {\bfseries m\-A\-I\-Planned}}\label{class_block_manager_a4a3f1df135388b827046b65215881e8e}
+
+\item 
+\hypertarget{class_block_manager_a52e4b2b469df1fc3b0c433554a059c34}{bool {\bfseries m\-Particle\-Enabled}}\label{class_block_manager_a52e4b2b469df1fc3b0c433554a059c34}
+
+\item 
+\hypertarget{class_block_manager_a545d41a71a17b7cb07ed1e4d48e6e4d5}{int {\bfseries next\-\_\-b}}\label{class_block_manager_a545d41a71a17b7cb07ed1e4d48e6e4d5}
+
+\item 
+\hypertarget{class_block_manager_af7ff9cdb5fe822ba4ec52408130f35ef}{Real {\bfseries count\-\_\-rotate}}\label{class_block_manager_af7ff9cdb5fe822ba4ec52408130f35ef}
+
+\item 
+\hypertarget{class_block_manager_a13f850b5b9fa5240e642956c680a8e34}{Vector3 {\bfseries m\-Target\-Position}}\label{class_block_manager_a13f850b5b9fa5240e642956c680a8e34}
+
+\item 
+\hypertarget{class_block_manager_a29346e118ea50c80f02c334e7aeb6e44}{Vector3 {\bfseries m\-Shape} \mbox{[}3\mbox{]}}\label{class_block_manager_a29346e118ea50c80f02c334e7aeb6e44}
+
+\item 
+\hypertarget{class_block_manager_a0cdb92b54c9826e992ca9d5ce9b13eb9}{Scene\-Manager $\ast$ {\bfseries m\-Scene\-Mgr}}\label{class_block_manager_a0cdb92b54c9826e992ca9d5ce9b13eb9}
+
+\item 
+\hypertarget{class_block_manager_aea35f500a1e95fd0fbe7f27f08126925}{\hyperlink{class_sound_manager}{Sound\-Manager} $\ast$ {\bfseries m\-Sound\-Mgr}}\label{class_block_manager_aea35f500a1e95fd0fbe7f27f08126925}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_block}{Block} manager for A\-L\-L blocks,check the chess board and clear the layer that is full,also apply A\-I L\-O\-G\-I\-C Design here. 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+source/Block\-Manager.\-h\item 
+source/Block\-Manager.\-cpp\end{DoxyCompactItemize}
